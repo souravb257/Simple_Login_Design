@@ -1,0 +1,79 @@
+*{
+   padding: 0px;
+   margin: 0px;
+
+}
+body{
+
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+/*Log in */
+
+.container{
+	width: 1140px;
+	margin: 100px auto;
+}
+.LogIn-box{
+    width: 50%;
+    margin: 50px auto;
+    padding: 80px;
+    background: #887571;
+    background-image: url(..images/background.png);
+
+
+}
+.LogIn-box .avater{
+    width: 100%;
+    text-align: center;
+}
+.LogIn-box .avater img{
+    width: 180px;
+    height: 180px;
+
+}
+
+.LogIn-box h1{
+	font-size: 42px;
+	line-height: 52px;
+	text-align: center;
+	text-transform: capitalize;
+	box-shadow: 2px 5px 10px #FCFAFA;
+}
+.main-form{
+
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+.main-form .form-group{
+	width: 95%;
+	margin: 15px 0px;
+}
+.main-form .form-group label{
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+    display:block;
+}
+.main-form .form-group .form-control{
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+}
+.main-form .form-group .btn{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	padding: 10px 35px;
+}
+.box{
+	font-size: 16px;
+}
